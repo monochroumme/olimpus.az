@@ -1,0 +1,27 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-connect-reproxy": "0.0.98",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-server-livereload": "^1.9.2"
+  },
+  "browserslist": [
+    "last 20 version",
+    "not dead"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

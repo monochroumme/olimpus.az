@@ -1,0 +1,101 @@
+@font-face {
+	font-family: Work;
+	src: url('../fonts/work-sans/WOFF2/WorkSans-Light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/work-sans/WOFF/WorkSans-Light.woff') format('woff'), /* Pretty Modern Browsers */
+		url('../fonts/work-sans/TTF/WorkSans-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/work-sans/OTF/WorkSans-Light.otf')  format('opentype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: Jenriv;
+	src: url('../fonts/jenriv/JenrivTitling-Bold.otf');
+}
+
+html,
+body {
+	box-sizing: border-box;
+	font-family: Work;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+input {
+  &::-ms-clear {
+    display: none;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header {
+	@include flex-center;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 100%;
+
+	&-text {
+		font-family: Jenriv;
+		font-size: 40px;
+		color: #E6C157;
+	}
+}
+
+.footer {
+	@include flex-center;
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	width: 100%;
+
+	&-link {
+		margin-right: 20px;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+
+		img {
+			width: 30px;
+			height: 30px;
+		}
+	}
+}
+
+.soon {
+	&-text {
+		color: white;
+		font-size: 80px;
+	}
+
+	&-page {
+		width: 100vw;
+		height: 100vh;
+		@include flex-center;
+		position: relative;
+		background: #332C4D;
+	}
+
+	&-dots {
+		display: inline-block;
+		width: 53px;
+	}
+}
