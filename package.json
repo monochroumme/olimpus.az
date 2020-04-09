@@ -1,27 +1,20 @@
 {
-  "name": "",
+  "name": "olimpus.az",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "an local store",
+  "author": "monochroumme",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
   "dependencies": {
-    "gulp": "^4.0.2",
-    "gulp-connect": "^5.7.0",
-    "gulp-connect-reproxy": "0.0.98",
-    "gulp-sass": "^4.0.2",
-    "node-sass": "^4.13.1"
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "gulp-autoprefixer": "6.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-server-livereload": "^1.9.2"
-  },
-  "browserslist": [
-    "last 20 version",
-    "not dead"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2"
+  }
 }

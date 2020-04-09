@@ -1,0 +1,99 @@
+html,
+body,
+#__nuxt,
+#__layout,
+#content {
+  box-sizing: border-box;
+  background: #FFFFFF;
+  font-family: Work;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+input {
+  &::-ms-clear {
+    display: none;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.main {
+  &-title {
+    font-family: Jenriv;
+    font-size: 70px;
+    line-height: 100%;
+    width: 320px;
+    height: 50px;
+    color: $color-yellow;
+  }
+
+  &-subtitle {
+    font-family: Didact;
+    font-size: 20px;
+    line-height: 100%;
+    color: white;
+  }
+}
+
+.custom-container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.page-fill {
+  min-height: calc(100vh - 460px);
+}
+
+@media (max-width: 900px) {
+  .custom-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .page-fill {
+    min-height: calc(100vh - 434px);
+  }
+}
+
+@media (max-width: 410px) {
+  .main {
+    &-title {
+      font-size: 60px;
+      height: 43px;
+    }
+
+    &-subtitle {
+      font-size: 16px;
+    }
+  }
+}
