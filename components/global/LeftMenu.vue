@@ -2,7 +2,7 @@
 	<div class="left-menu">
 		<ul>
 			<li v-for="(section, i) in sections" :key="i">
-				<nuxt-link :to="`#${section.id}`" :class="{ active : section.id == activeSectionId }">{{ section.title }}</nuxt-link>
+				<a :href="`#${section.id}`" :class="{ active : section.id == activeSectionId }" @click.prevent="scrollTo(section.id)">{{ section.title }}</a>
 			</li>
 		</ul>
 		<GoToTop />
@@ -61,6 +61,13 @@
 	            else this.margin = 200;
 
 	            this.onScroll();
+	        },
+
+	        scrollTo(id) {
+	        	if (document.querySelector(`#${id}`)) {
+					this.$router.push(`#${id}`);
+					return window.scrollTo({ top: document.querySelector(`#${id}`).offsetTop + (window.innerWidth <= 500 ? 120 : 80), behavior: 'smooth' });
+			  	} else return window.scrollTo({ top: 0, behavior: 'smooth' });
 	        }
 	    }
 	}
