@@ -28,8 +28,7 @@
 				<a target="_blank" href="https://www.instagram.com/olimpus.az/" class="footer__social__link">
 					<img class="footer__social__icon" src="~/static/svg/instagram.svg" alt="instagram">
 				</a>
-				<!-- TODO -->
-				<a target="_blank" href="#" class="footer__social__link">
+				<a target="_blank" href="https://wa.me/994777240011" class="footer__social__link">
 					<img class="footer__social__icon" src="~/static/svg/whatsapp.svg" alt="whatsapp">
 				</a>
 			</div>

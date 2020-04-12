@@ -1,6 +1,12 @@
-@import "colors.scss";
-@import "fonts.scss";
-@import "common.scss";
-@import "header.scss";
-@import "footer.scss";
-@import "left-menu.scss";
+// common
+@import "/global/colors.scss";
+@import "/global/fonts.scss";
+@import "/global/common.scss";
+@import "/global/header.scss";
+@import "/global/footer.scss";
+@import "/global/left-menu.scss";
+@import "/global/double-layout.scss";
+@import "/global/go-to-top.scss";
+
+// pages
+@import "/pages/main.scss";

@@ -1,0 +1,30 @@
+.left-menu {
+	position: sticky;
+	top: 110px;
+
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+
+		li {
+			margin-bottom: 20px;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+
+			a {
+				font-size: 20px;
+				line-height: 100%;
+				color: #3B4D61;
+				transition: color .2s ease;
+
+				&.active {
+					font-weight: 600;
+					color: #FDCE4B;
+				}
+			}
+		}
+	}
+}

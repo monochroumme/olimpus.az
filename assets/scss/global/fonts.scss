@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Jenriv;
+  src: url("../../static/fonts/jenriv/JenrivTitling-Bold.otf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Didact;
+  src: url("../../static/fonts/didact-gothic.regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Work;
+  src: url('../../static/fonts/work-sans/WOFF2/WorkSans-Light.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../static/fonts/work-sans/WOFF/WorkSans-Light.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../../static/fonts/work-sans/TTF/WorkSans-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../../static/fonts/work-sans/OTF/WorkSans-Light.otf')  format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Work;
+  src: url('../../static/fonts/work-sans/WOFF2/WorkSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../static/fonts/work-sans/WOFF/WorkSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../../static/fonts/work-sans/TTF/WorkSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../../static/fonts/work-sans/OTF/WorkSans-Regular.otf')  format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Work;
+  src: url('../../static/fonts/work-sans/WOFF2/WorkSans-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../static/fonts/work-sans/WOFF/WorkSans-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../../static/fonts/work-sans/TTF/WorkSans-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../../static/fonts/work-sans/OTF/WorkSans-Medium.otf')  format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Work;
+  src: url('../../static/fonts/work-sans/WOFF2/WorkSans-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../static/fonts/work-sans/WOFF/WorkSans-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../../static/fonts/work-sans/TTF/WorkSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../../static/fonts/work-sans/OTF/WorkSans-Bold.otf')  format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Work;
+  src: url('../../static/fonts/work-sans/WOFF2/WorkSans-Black.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../static/fonts/work-sans/WOFF/WorkSans-Black.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../../static/fonts/work-sans/TTF/WorkSans-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../../static/fonts/work-sans/OTF/WorkSans-Black.otf')  format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 900;
+}

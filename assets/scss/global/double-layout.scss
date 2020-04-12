@@ -1,0 +1,23 @@
+.double-layout {
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	position: relative;
+
+	&__left {
+		min-width: 240px;
+		max-width: 240px;
+	}
+
+	&__right {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.double-layout {
+		&__left {
+			display: none;
+		}
+	}
+}
