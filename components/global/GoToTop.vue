@@ -1,6 +1,10 @@
 <template>
 	<div class="go-to-top" :class="{ active : show }">
-		<img src="~/static/svg/go-to-top.svg" alt="Yuxarı" @click="scrollToTop()">
+		<client-only>
+			<back-to-top>
+				<img src="~/static/svg/go-to-top.svg" alt="Yuxarı">
+			</back-to-top>
+		</client-only>
 	</div>
 </template>
 
@@ -22,10 +26,6 @@
 				if (window.scrollY > 0)
 					this.show = true;
 				else this.show = false;
-			},
-
-			scrollToTop() {
-				window.scrollTo({ top: 0, behavior: 'smooth' });
 			}
 		}
 	}

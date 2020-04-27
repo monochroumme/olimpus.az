@@ -12,6 +12,10 @@
 		}
 	}
 
+	&__subtitle {
+		margin-left: 3px;
+	}
+
 	&__content {
 		display: flex;
 	}
@@ -51,7 +55,19 @@
 			a {
 				text-decoration: underline;
 				color: $color-yellow;
+				display: flex;
+				align-items: center;
 			}
+		}
+
+		&__address {
+			margin-bottom: 3px;
+		}
+
+		&__google-map {
+			margin-right: 5px;
+			width: 20px;
+			height: 20px;
 		}
 	}
 
@@ -131,6 +147,12 @@
 				padding-left: 0;
 				align-items: center;
 			}
+
+			&__item {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
 		}
 
 		&__title {
@@ -142,6 +164,10 @@
 				align-items: center;
 				margin-bottom: 20px;
 			}
+		}
+
+		&__subtitle {
+			margin-left: 0;
 		}
 
 		&__pic {

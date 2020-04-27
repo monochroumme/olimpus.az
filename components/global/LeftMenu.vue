@@ -2,7 +2,7 @@
 	<div class="left-menu">
 		<ul>
 			<li v-for="(section, i) in sections" :key="i">
-				<a :href="`#${section.id}`" :class="{ active : section.id == activeSectionId }" @click.prevent="scrollTo(section.id)">{{ section.title }}</a>
+				<a :href="`#${section.id}`" :class="{ active : section.id == activeSectionId }" @click.prevent="scrollTo(section.id)">{{ formatTitle(section.title) }}</a>
 			</li>
 		</ul>
 		<GoToTop />
@@ -68,6 +68,10 @@
 					this.$router.push(`#${id}`);
 					return window.scrollTo({ top: document.querySelector(`#${id}`).offsetTop + (window.innerWidth <= 500 ? 120 : 80), behavior: 'smooth' });
 			  	} else return window.scrollTo({ top: 0, behavior: 'smooth' });
+	        },
+
+	        formatTitle(title) {
+	        	return title.slice(0, 1).toUpperCase() + title.slice(1, title.length).toLowerCase();
 	        }
 	    }
 	}

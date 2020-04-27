@@ -93,6 +93,7 @@
 				z-index: 1;
 				padding: 0;
 				margin: 0;
+				cursor: pointer;
 
 				&:focus {
 					outline: none;
@@ -132,6 +133,8 @@
 @media (max-width: 600px) {
 	.main-page {
 		&__section {
+			max-height: 400px;
+
 			&__title-area {
 				position: absolute;
 				top: 0;
@@ -198,6 +201,8 @@
 @media (max-width: 400px) {
 	.main-page {
 		&__section {
+			max-height: 300px;
+
 			&__pic-area {
 				img {
 					max-height: 300px;

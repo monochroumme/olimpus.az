@@ -13,7 +13,8 @@
   "dependencies": {
     "nuxt": "^2.0.0",
     "swiper": "^5.3.7",
-    "vue-awesome-swiper": "^4.1.0"
+    "vue-awesome-swiper": "^4.1.0",
+    "vue-backtotop": "^1.6.1"
   },
   "devDependencies": {
     "node-sass": "^4.13.1",

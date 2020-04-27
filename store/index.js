@@ -101,49 +101,49 @@ export const state = () => ({
 
     mainSections: [
         {
-            title: 'Idman dəstləri',
+            title: 'İDMAN DƏSTLƏRİ',
             pic: '/pics/sections/idman-dest.jpg',
             id: 'idman-dest'
         },
         {
-            title: 'Idman ayaqqabıları',
+            title: 'İDMAN AYAQQABILARI',
             pic: '/pics/sections/idman-ayaq.jpg',
             id: 'idman-ayaq'
         },
         {
-            title: 'Idman köynəkləri',
+            title: 'İDMAN KÖYNƏKLƏRİ',
             pic: '/pics/sections/idman-koynek.jpg',
             id: 'idman-koynek'
         },
         {
-            title: 'Polo köynəkləri',
+            title: 'POLO KÖYNƏKLƏR',
             pic: '/pics/sections/polo-koynek.jpg',
             id: 'polo-koynek'
         },
         {
-            title: 'Jeans köynəkləri',
-            pic: '/pics/sections/jeans-koynek.jpg',
-            id: 'jeans-koynek'
+            title: 'ÜST GEYİMLƏR',
+            pic: '/pics/sections/ust-geyim.jpg',
+            id: 'ust-geyim'
         },
         {
-            title: 'Jeans şalvarlar',
+            title: 'JEANS',
             pic: '/pics/sections/jeans-shalvar.jpg',
-            id: 'jeans-shalvar'
+            id: 'jeans'
         },
         {
-            title: 'Papaqlar',
+            title: 'İÇ GEYIMLƏRİ',
+            pic: '/pics/sections/ic-geyim.jpg',
+            id: 'ic-geyim'
+        },
+        {
+            title: 'PAPAQLAR',
             pic: '/pics/sections/papaq.jpg',
             id: 'papaq'
         },
         {
-            title: 'Saatlar',
+            title: 'SAATLAR',
             pic: '/pics/sections/saat.jpg',
             id: 'saat'
-        },
-        {
-            title: 'Iç geyimləri',
-            pic: '/pics/sections/ic-geyim.jpg',
-            id: 'ic-geyim'
         }
     ]
 })
